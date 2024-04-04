@@ -1,20 +1,21 @@
 :root {
-    --primaryTextColor: #232e35;
-    --secondaryTextColor: #656d72;
+    --primaryTextColor: #FFE500;
+    --secondaryTextColor: #FFFF;
 
     --borderColor: #f1f1f1;
     --lineColor: #d9d9d9;
 
     --primaryBackgroundColor: #7280FF;
-    --secondaryBackgroundColor: #fbfbfb;
+    --secondaryBackgroundColor: #2F4A7E;
     --thirdBackgroundColor: #f5f3fe;
 
-    --primaryIconColor: #7e74f1;
+    --primaryIconColor: white;
     --primaryIconColorHover: #5d51e8;
 
-    --sectionPadding: 6rem 0;
+    --sectionPadding: 7.5rem 0;
 
-    --itemBorderRadius: 0.7rem;
+    --itemBorderRadius: 0.5rem;
+    --itemBorderRadius2: 1.5rem;
 }
 
 *{
@@ -24,60 +25,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-a {
-    color: black;
-}
-
-body{
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-}
-
-a {
-    color: yellow;
-}
 
 .navbar {
     padding: 15px;
     background: var(--primaryBackgroundColor) !important;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 2.5rem;
-}
-
-
-
-.btn {
-    padding: 1rem 1.5rem;
-    background: yellow;
-    border: 1.5px solid var(--borderColor);
-    cursor: pointer;
-    transition: .2s ease-in-out;
-}
-
-/*Header*/
-
-.contener-awal {
-    padding: 6rem;
-}
-
-#awal {
-    height: 720px;
-    display: flex;
-    align-items: center;
-}
-
-.gambar img {
-    position: static;
-    display: block;
-    width: 1200px;
-    padding-left: 8rem;
 }
 
 .navbar-nav .nav-link {
@@ -145,4 +96,154 @@ color: #1E1E1E;
     align-items: stretch;
 }
 
+#gambar-awal {
+    display: flex;
+    align-items: center;
+}
 
+.text-center {
+    padding-top: 10rem;
+    position: relative;
+}
+
+.text-center .text1 {
+    color: white;
+    background: var(--primaryBackgroundColor);
+    opacity: 70%;
+    border-radius: var(--itemBorderRadius);
+    position: absolute;
+    width: 450px;
+    top: 430px;
+    left: 150px;
+}
+
+.home2 {
+    padding: var(--sectionPadding);
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home2 .home2-kiri {
+    left: 30px;
+}
+
+.home2 .home2-kanan {
+    position: relative;
+    top: 50px;
+    margin-right: 100px;
+}
+
+.home2 .home2-kanan h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.home2 .home2-kanan p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Layout */
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: var(--itemBorderRadius2);
+}
+
+#fitur {
+    padding: var(--sectionPadding);
+}
+
+.fitur {
+    padding: 3rem 2rem;
+    background-color: var(--secondaryBackgroundColor);
+    border-radius: var(--itemBorderRadius2);
+    overflow: hidden;
+    border: 1px solid var(--borderColor);
+}
+
+.fitur-tittle {
+    padding: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.fitur-icon {
+    position: absolute;
+    top: 1530px;
+    background-color: var(--secondaryBackgroundColor);
+    width: fit-content;
+    margin-left: 5rem;
+    padding: 1rem 1rem;
+    border-radius: var(--itemBorderRadius2);
+    border: 4px solid var(--borderColor);
+    outline-color: var(--borderColor);
+    border-color: var(--borderColor);
+}
+
+.fitur-icon svg {
+    width: fit-content;
+    height: 30px;
+    fill: var(--primaryIconColor);
+}
+
+.fitur h4 {
+    color: var(--primaryTextColor);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.fitur p {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#video {
+    padding: var(--sectionPadding);
+}
+
+.video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    background: var(--primaryIconColorHover);
+    border-radius: var(--itemBorderRadius2);
+}
+
+.video .video-kiri {
+    opacity: 100%;
+    padding: 1.5rem;
+
+}
+
+.video .video-kiri h2{
+    color: var(--secondaryTextColor);
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.video .video-kiri h3{
+    color: #363636;
+    font-size: 30;
+    font-weight: 400;
+}
+
+.video .video-kiri p {
+    color: var(--secondaryTextColor);
+}
+
+.video .video-kanan {
+    padding: 1.5rem;
+}
+
+.video .video-kanan frame {
+    display: block;
+}
