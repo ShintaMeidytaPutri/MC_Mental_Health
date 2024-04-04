@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+body{
+    height: 100vh;
+    background-image: url(ImageForArticle_22455_16516760098273519.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    left: 116px;
+    top: 80px;
+    padding: 20px 25px;
+    background: rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  form label {
+    color: #FFFFFF; 
+}
+
+#button_sign{
+    margin-left: 200px;       
+}
+
+input[type=button]{
+    font-size: 16px;
+    background: #FFE500;
+    border: 1px solid grey;
+    color: #2F4A7E;
+    font-weight: bold;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 6px;
+    padding: 10px 0;
+    margin-left: 10%;
+    outline:none;
+  }
+
+  input[type=email]{
+    width: 130%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+
+  input[type=password]{
+    width: 130%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+
+#label_email
+{
+    text-align: center;
+    margin-right: 105px;
+}
+#label_password {
+    text-align: center;
+    margin-right: 75px;
+   
+}
+
+#input_email,
+#input_password {
+    margin-left: 150px;
+    
+    
+}
+
+  #links_left{
+    top: 120px;
+    right: 245px;
+	float:left;
+	position:relative;
+	padding-top:5px;
+	margin-left:25px;
+}
+
+#links_left a{
+	color:#FFFFFF;
+	font-size:12px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#links_left a:hover{
+	color:#FFE500;
+}
+
+#links_right{
+    top: 120px;
+    right: 140px;
+	float:right;
+	position:relative;
+	padding-top:5px;
+	margin-right:25px;
+}
+
+#links_right a{
+	color: #FFE500;
+	font-size:12px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#links_right a:hover{
+	color:#FFFFFF;
+}
+
+
+.Mental-Health {
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    left: 245px;
+    top: 385px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #FFE500;
+}
+
+.highlight {
+    color: #FFFFFF;
+}
+
+.October-25-2019-3 {
+    position: absolute;
+    width: 229px; 
+    height: 229px; 
+    left: 262px; 
+    top: 150px; 
+    background: url(October\ 25\,\ 2019\ \(3\)\ 87.png);
+    background-size: cover; 
+    
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+      left: 5%;
+      top: 50px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  input[type=email], input[type=password], input[type=button] {
+      width: 90%;
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  #label_email, #label_password {
+      margin-right: 0;
+  }
+
+  #input_email, #input_password {
+      margin-left: 0;
+  }
+
+  .Mental-Health {
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
+  }
+
+  .October-25-2019-3 {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .Mental-Health {
+      font-size: 24px;
+  }
+
+  #links_left, #links_right {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+}

@@ -1,0 +1,148 @@
+:root {
+    --primaryTextColor: #232e35;
+    --secondaryTextColor: #656d72;
+
+    --borderColor: #f1f1f1;
+    --lineColor: #d9d9d9;
+
+    --primaryBackgroundColor: #7280FF;
+    --secondaryBackgroundColor: #fbfbfb;
+    --thirdBackgroundColor: #f5f3fe;
+
+    --primaryIconColor: #7e74f1;
+    --primaryIconColorHover: #5d51e8;
+
+    --sectionPadding: 6rem 0;
+
+    --itemBorderRadius: 0.7rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+body{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+a {
+    color: yellow;
+}
+
+.navbar {
+    padding: 15px;
+    background: var(--primaryBackgroundColor) !important;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+}
+
+
+
+.btn {
+    padding: 1rem 1.5rem;
+    background: yellow;
+    border: 1.5px solid var(--borderColor);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+/*Header*/
+
+.contener-awal {
+    padding: 6rem;
+}
+
+#awal {
+    height: 720px;
+    display: flex;
+    align-items: center;
+}
+
+.gambar img {
+    position: static;
+    display: block;
+    width: 1200px;
+    padding-left: 8rem;
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+    transition: color 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: black !important; 
+}
+
+.mental-health {
+    position: static;
+    display: inline;
+    
+  
+    margin-top: 8px;
+    margin-left: -38px;
+    width: 310px;
+    height: 68px;
+    right: 179px;
+    top: 2143px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #FFE500;
+}
+
+.highlight {
+    color: #FFFFFF;
+}
+
+.asikteen {
+    position: static;
+    display: inline;
+    
+    margin-top: 35px;
+    margin-left: -123.5px;
+width: 66px;
+height: 23.9px;
+left: 132px;
+top: 2911.31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.011em;
+
+color: #1E1E1E;
+}
+
+#navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-brand2 {
+    display: flex;
+    align-items: stretch;
+}
+
+

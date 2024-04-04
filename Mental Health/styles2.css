@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+body{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+}
+.row {
+    display: flex;
+  }
+  
+  .col-lg-6,
+  .col-md-12,
+  .col-12 {
+    flex: 1;
+  }
+  
+  
+  
+  #label_email,
+  #input_email {
+    flex: 1; 
+  }
+  
+  .image-9 {
+    margin-left: 312.9px;
+    width: 645.5px;
+    height: 100vh; 
+}
+
+#button_email {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+input[type=email]{
+    height: 45px;
+    width: 195%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+
+#input_email {
+    margin-left: 1px;
+}
+
+  #label_email
+{
+    text-align: center;
+    margin-right: 220px;
+}
+
+#button_sign{
+    margin-left: -5%;       
+}
+
+input[type=sign]{
+    height: 28px;
+    font-size: 16px;
+    background: #FFE500;
+    border: 1px solid grey;
+    color: #2F4A7E;
+    font-weight: bold;
+    cursor: pointer;
+    width: 165px;
+    border-radius: 6px;
+    padding: 10px 0;
+    margin-left: 10%;
+    outline:none;
+    text-align: center;
+    margin-left: 66%;
+  }
+  
+.forgot-password-heading {
+    display: flex;
+    margin-bottom: 40px; 
+     
+}
+
+#back {
+margin-left: 15px;
+    margin-bottom: 530px;
+    background-color: white;
+    outline: none;
+    outline: none;
+    border: none; 
+}
+  
