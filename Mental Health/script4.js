@@ -34,13 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (totalScore >= 1 && totalScore <= 2) {
             return { text: "Kamu gemar membaca buku.", imageSrc: "hasil-buku2.png" };
         } else if (totalScore >= 3 && totalScore <= 4) {
-            return { text: "Kamu gemar seni gambar.", imageSrc: "hasil-gambar.png" };
+            return { text: "Kamu gemar seni gambar.", imageSrc: "hasil-gambar2.png" };
         } else if (totalScore >= 5 && totalScore <= 6) {
             return { text: "Kamu gemar dalam olahraga.", imageSrc: "hasil-olahraga.png" };
         } else if (totalScore >= 6 && totalScore <= 8) {
-            return { text: "Kamu gemar bermain Video Game.", imageSrc: "hasil-game.png" };
+            return { text: "Kamu gemar bermain Video Game.", imageSrc: "hasil-game2.png" };
         } else if (totalScore >= 9 && totalScore <= 10) {
-            return { text: "Kamu gemar merajut pakian.", imageSrc: "hasil-jahit.png" };
+            return { text: "Kamu gemar merajut pakian.", imageSrc: "hasil-jahit2.png" };
         } else if (totalScore >= 11 && totalScore <= 12) {
         return { text: "Kamu gemar dalam seni musik.", imageSrc: "hasil-musik.png" };
         }
