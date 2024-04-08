@@ -27,6 +27,8 @@
 
 
 .navbar {
+    position: fixed;
+    display: block;
     padding: 15px;
     background: var(--primaryBackgroundColor) !important;
 }
@@ -246,4 +248,152 @@ color: #1E1E1E;
 
 .video .video-kanan frame {
     display: block;
+}
+
+#footer-brand {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+#footer-brand2 {
+    display: flex;
+    align-items: stretch;
+}
+
+
+.asikteen2 {
+    position: static;
+    display: inline;
+    
+    margin-top: 35px;
+    margin-left: -123.5px;
+width: 66px;
+height: 23.9px;
+left: 132px;
+top: 2911.31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.011em;
+
+
+}
+
+.navbar-hide {
+    transition: top 0.3s ease-in-out;
+}
+
+
+.mental-health2 {
+    position: static;
+    display: inline;
+    
+  
+    margin-top: 8px;
+    margin-left: -38px;
+    width: 310px;
+    height: 68px;
+    right: 179px;
+    top: 2143px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #FFE500;
+}
+
+.highlight2 {
+    color: #FFFFFF;
+}
+
+.footer-brand img {
+    width: 60px;
+    height: auto;
+    margin-left: 10px; 
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul  {
+    display: inline;
+}
+
+.footer-links ul dt a {
+    font-weight: normal;
+    font-size: 14px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+#ul-1 {
+    margin-left: 75px;
+}
+#ul-2 {
+    margin-left: 75px;
+}
+
+#ul-3 {
+    margin-left: 75px;
+}
+
+
+.social-media {
+    margin-right: 120px;
+    margin-left: auto;
+}
+
+.social-media a  {
+    display: inline;
+    margin-left: 2px;
+}
+
+
+.social-media img {
+    width: 22.5px;
+    height: auto;
+}
+
+.footer-brand {
+    position: relative;
+}
+
+hr {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 90%;
+    top: 135px;
+    border: none;
+    color: black;
+    background-color: black;
+    
+}
+
+.footer-brand .copyright {
+    position: absolute;
+    bottom: -0.5px; 
+    width: 100%;
+    text-align: center; 
+}
+
+.copyright p {
+    font-size: 11px;
+    color: white;
 }
