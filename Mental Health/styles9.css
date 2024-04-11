@@ -405,6 +405,7 @@ hr {
 }
 
 .container-profile {
+    position: relative;
     margin-right: 480px; 
 }
 
@@ -432,7 +433,9 @@ input[type=email]{
     border-radius: 6px;
   }
 
-.btn-edit {
+.btn-save {
+    position: absolute;
+    top: 510px;
     background-color: #5FC620;
     color: white;
     border: none;
@@ -440,4 +443,29 @@ input[type=email]{
     border-radius: 8px;
     margin-left: 12px;
 
+}
+
+
+#edit {
+    display: absolute;
+    margin-top: -520px;
+    margin-left: 1070px;
+    width: 25px;
+    height: auto;
+}
+
+#edit2 {
+    display: absolute;
+    margin-top: -385px;
+    margin-left: 1070px;
+    width: 25px;
+    height: auto;
+}
+
+#edit3 {
+    display: absolute;
+    margin-top: -248px;
+    margin-left: 1070px;
+    width: 25px;
+    height: auto;
 }

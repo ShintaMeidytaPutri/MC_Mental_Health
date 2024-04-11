@@ -10,6 +10,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <script src="script6.js"></script>
         <script src="script5.js"></script>
+        <script src="script7.js"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     </head>
     <body>
@@ -58,14 +59,17 @@
             <img id = "pic-profile" src="pic-profile.png" style="margin-right: 400px; margin-top: 180px;" class="profile-icon">
             <form id="form-profile">
                     <div id="nama"><label>Nama</label></div>
-                    <div id="input-nama"><input type="nama" name="nama" id="nama"></div>
+                    <div id="input-nama"><input type="nama" name="namaEdit" id="nama2" placeholder="Nama Pengguna..."></div>
                     <div id="email"><label>Email</label></div>
-                    <div id="input-email"><input type="email" name="email" id="email"></div>
+                    <div id="input-email"><input type="email" name="emailEdit" id="email2" placeholder="Email Pengguna..."></div>
                     <div id="bio"><label>Bio</label></div>
-                    <div id="input-bio"><input type="bio" name="bio" id="bio"></div>
+                    <div id="input-bio"><input type="bio" name="bioEdit" id="bio2" placeholder="Bio..."></div>
             </form>
             <img src="nama-profile.png" class="nama-pic" style="margin-left: 490px; margin-top: -470px; width:55px; height:auto">
-            <img src="email-profile.png" class="email-pic" style="margin-left: 490px; margin-top: -331px; width:55px; height:auto;">
-            <img src="bio-profile.png" class="bio-pic" style="margin-left: 490px; margin-top: -195px; width:55px; height:auto;">
-            <button type="button" class="btn-edit" onclick="window.location.href='profile.html'">Save Profile</button>
+            <img src="edit.png" id="edit">
+            <img src="edit.png" id="edit2">
+            <img src="edit.png" id="edit3">
+            <img src="email-profile.png" class="email-pic" style="margin-left: 490px; margin-top: -476px; width:55px; height:auto;">
+            <img src="bio-profile.png" class="bio-pic" style="margin-left: 490px; margin-top: -340px; width:55px; height:auto;">
+            <button type="button" class="btn-save" onclick="window.location.href='profile.html'; updateProfile()">Save Profile</button>
         </div>
