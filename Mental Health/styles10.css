@@ -419,7 +419,6 @@ hr {
   }
 
   .dashed-border {
-    text-align: center;
     margin-top: -115px;
     margin-right: 200px;
     border: 2px dashed #8ACE00; 
@@ -447,17 +446,11 @@ hr {
     align-items: center;
 }
 
-input[type="checkbox"] {
-    display: inline-block; 
-    margin: 0 10px 0 5px; 
-    margin-right: 200px;
-    color: #C4FF65;
-   
-}
+
 
 .dashed-border2 {
-    text-align: center;
-    margin-top: -352px;
+    
+    margin-top: -152px;
     margin-right: 200px;
     margin-left: 450px;
     border: 2px dashed #E3D510; 
@@ -492,4 +485,33 @@ input[type="checkbox"] {
 
   .weekly-font:hover {
     color: black;
+}
+
+.label2 {
+   
+    display: inline-block;
+    margin-left: 100px; 
+    width: auto; 
+    background-color: #8ACE00;
+    border: 1px solid rgb(9, 18, 9);
+    padding: 1px 90px;
+}
+
+.test-tengah {
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline-block; 
+    margin: 0 10px 0 5px; 
+    color: #C4FF65;
+   
+}
+
+label {
+    border: 1px solid green;
+    background-color: rgb(99, 202, 99);
+    padding: 0 10px;
 }

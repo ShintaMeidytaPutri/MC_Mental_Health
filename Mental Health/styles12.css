@@ -583,13 +583,90 @@ input[type="checkbox"] {
     padding: 2px 0;
 }
 
-.img2 {
-    margin-top: -250px;
-    margin-left: 30px;
+#contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -44px;
 }
 
-.img3 {
-margin-left: 932px;
-margin-top: -250px;
+.contact-kiri {
+    background-color: var(--primaryBackgroundColor);
+    border-radius: var(--itemBorderRadius2);
+    margin-top: 150px;
+    overflow-y: scroll;
+    overflow: hidden;
 }
 
+.contact-kiri h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--primaryTextColor);
+    width: 420px;
+    padding: 15px;
+    margin-left: 87px;
+    margin-top: 10px;
+    background-color: var(--secondaryBackgroundColor);
+    border-radius: var(--itemBorderRadius);
+}
+
+#contact-container dt {
+    text-decoration: none;
+    background-color: var(--primaryTextColor);
+    font-weight: 400;
+    font-size: 25px;
+    border: 2px solid darkgray;
+    width: 500px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 5px;
+}
+
+
+#contact-container img {
+    width: 59px;
+    height: 59px;
+}
+
+
+.navbar-hide {
+    transition: top 0.3s ease-in-out;
+}
+
+.contact-kanan {
+    display: grid;
+}
+
+.container {
+    margin-top: 150px;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+#chat-box {
+    margin-top: 150px;
+    border: 1px solid #ccc;
+    height: 470px;
+    overflow-y: scroll;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #ccc;
+    border-top-left-radius: var(--itemBorderRadius2);
+    border-top-right-radius: var(--itemBorderRadius2);
+}
+#message-box {
+    width: 100%;
+    margin-top: 0px;
+}
+#message {
+    width: 80%;
+    padding: 5px;
+}
+#send-button {
+    width: 18%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -451,3 +451,9 @@ input[type=email]{
     margin-left: 18px;
 
 }
+
+.profile-icon {
+    display: block;
+    margin-left: 190px;
+    margin-top: -57px;
+}

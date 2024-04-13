@@ -469,3 +469,9 @@ input[type=email]{
     width: 25px;
     height: auto;
 }
+
+.profile-icon {
+    display: block;
+    margin-left: 190px;
+    margin-top: -57px;
+}
