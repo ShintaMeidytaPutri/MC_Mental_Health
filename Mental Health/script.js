@@ -7,7 +7,7 @@ var attempt = 3;
         if (email == "Asikteen@gmail.com" && password == "admin123") {
             //alertElement.innerHTML = "Berhasil Login";//
             //alertElement.style.display = "block";//
-
+            alert("Success Log In!");
             setTimeout(function () {
                 window.location = "home.html"; 
             }, 1000); 
