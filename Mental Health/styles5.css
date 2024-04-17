@@ -33,7 +33,19 @@
 
 .navbar-nav .nav-link {
     color: white; 
-    transition: color 0.3s; 
+    transition: color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 25px;
+}
+
+.navbar-nav .btn {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
 }
 
 .navbar-nav .nav-link:hover {
@@ -276,7 +288,7 @@ input[type="checkbox"] {
     border-radius: 5px; 
     cursor: pointer; 
     float: right; 
-    left: 743px;
+    left: 721px;
     top: 490px;
 }
 

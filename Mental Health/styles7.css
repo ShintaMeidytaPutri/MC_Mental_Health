@@ -33,7 +33,19 @@
 
 .navbar-nav .nav-link {
     color: white; 
-    transition: color 0.3s; 
+    transition: color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 25px;
+}
+
+.navbar-nav .btn {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
 }
 
 .navbar-nav .nav-link:hover {
@@ -314,6 +326,12 @@ input[type="checkbox"] {
 .playing-video .vid-tittle h4 {
     font-weight: 600;
     font-size: 25px;
+}
+
+.playing-video .vid-tittle p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #555;
 }
 
 .list {

@@ -35,7 +35,19 @@
 
 .navbar-nav .nav-link {
     color: white; 
-    transition: color 0.3s; 
+    transition: color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 25px;
+}
+
+.navbar-nav .btn {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
 }
 
 .navbar-nav .nav-link:hover {
@@ -154,6 +166,7 @@ color: #1E1E1E;
     margin-left: 2rem;
     margin-right: 2rem;
     border-radius: var(--itemBorderRadius2);
+
 }
 
 #fitur {
@@ -404,6 +417,37 @@ hr {
     margin-right: 600px;
 }
 
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 10rem;
+    padding-bottom: 110px;
+}
+
+.list {
+    display: grid;
+}
+
+.img1 {
+    position: absolute;
+    margin-top: -225px;
+}
+
+.img2 {
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 45px;
+}
+
+.img3 {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -210px;
+}
+
 .arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -421,53 +465,88 @@ hr {
   .dashed-border {
     margin-top: -115px;
     margin-right: 200px;
-    border: 2px dashed #8ACE00; 
+    border: 3px dashed #8ACE00;
     padding: 10px 20px;
-    width: 400px;
+    border-radius: 15px;
+    width: 365px;
+    height: 300px;
   }
 
-  #question-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: -64px;
-}
+  .dashed-border label {
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    justify-content: center;
+    width: 270px; 
+    background-color: #C4FF65;
+    border: 0px solid rgb(9, 18, 9);
+    padding: 1px auto;
+    text-shadow: 
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+  }
 
-#question-container dt {
-    text-decoration: none;
-    font-weight: 200;
-    border: 2px solid #C4FF65;
-    width: fit-content;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 8px;
-    margin-right: 700px;
-    background-color: #2F4A7E;
-    display: inline-block; 
-    align-items: center;
-}
+  .dashed-border label span{
+    color: red;
+  }
+
 
 
 
 .dashed-border2 {
     
-    margin-top: -152px;
+    margin-top: -115px;
     margin-right: 200px;
-    margin-left: 450px;
-    border: 2px dashed #E3D510; 
+    border: 3px dashed #E3D510;
     padding: 10px 20px;
-    width: 400px;
-  }
+    border-radius: 15px;
+    width: 365px;
+    height: 300px;
+}
 
-  .dashed-border3 {
-    text-align: center;
-    margin-top: -350px;
-    margin-left: 900px;
+.dashed-border2 label {
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    justify-content: center;
+    width: 270px; 
+    background-color: #f3ff6e;
+    border: 0px solid rgb(9, 18, 9);
+    padding: 1px auto;
+    text-shadow: 
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.dashed-border3 {
+    margin-top: -115px;
     margin-right: 200px;
-    border: 2px dashed #490EF3; 
+    border: 3px dashed #490EF3;
     padding: 10px 20px;
-    width: 400px;
-  }
+    border-radius: 15px;
+    width: 365px;
+    height: 300px;
+}
 
+.dashed-border3 label {
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    justify-content: center;
+    width: 270px; 
+    background-color: #AAB8FF;
+    border: 0px solid rgb(9, 18, 9);
+    padding: 1px auto;
+    text-shadow: 
+        -1px -1px 0 whitesmoke,
+        1px -1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+}
 
   .weekly-font {
     margin-left: 900px;
@@ -487,15 +566,7 @@ hr {
     color: black;
 }
 
-.label2 {
-   
-    display: inline-block;
-    margin-left: 100px; 
-    width: auto; 
-    background-color: #8ACE00;
-    border: 1px solid rgb(9, 18, 9);
-    padding: 1px 90px;
-}
+
 
 .test-tengah {
         padding: 10px;
@@ -504,14 +575,24 @@ hr {
 }
 
 input[type="checkbox"] {
-    display: inline-block; 
-    margin: 0 10px 0 5px; 
-    color: #C4FF65;
-   
+    display: inline-block;
+    margin: 0 10px 0 5px;
+    width: 25px; /* Lebar checkbox */
+    height: 20px;
+
 }
+
 
 label {
     border: 1px solid green;
     background-color: rgb(99, 202, 99);
     padding: 0 10px;
+}
+
+.dashed-border2 label span{
+    color: blue;
+}
+
+.dashed-border3 label span{
+    color: #CC00FF;
 }
