@@ -124,19 +124,20 @@ color: #1E1E1E;
 
 .text-left .text1 {
     color: white;
+    text-align: justify;
     background: var(--primaryBackgroundColor);
     padding: 20px;
     opacity: 90%;
     border-radius: var(--itemBorderRadius);
     position: absolute;
     width: 450px;
-    top: 430px;
-    left: 180px;
+    top: 420px;
+    left: 210px;
 }
 
 .text-left img {
     display: flex;
-    margin-left: 140px;
+    margin-left: 180px;
     margin-top: 20px;
 }
 
@@ -155,7 +156,7 @@ color: #1E1E1E;
 .home2 .home2-kanan {
     position: relative;
     top: 50px;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 .home2 .home2-kanan h2{
@@ -203,7 +204,7 @@ color: #1E1E1E;
 
 .fitur-icon {
     position: absolute;
-    top: 1535px;
+    top: 1560px;
     background-color: var(--secondaryBackgroundColor);
     width: fit-content;
     margin-left: 5rem;

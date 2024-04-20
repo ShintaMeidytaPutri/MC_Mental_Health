@@ -332,6 +332,8 @@ input[type="checkbox"] {
     font-size: 18px;
     font-weight: 200;
     color: #555;
+    text-align: justify;
+    margin-top: 15px;
 }
 
 .list {

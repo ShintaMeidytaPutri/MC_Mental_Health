@@ -83,19 +83,17 @@
     
     margin-top: 35px;
     margin-left: -123.5px;
-width: 66px;
-height: 23.9px;
-left: 132px;
-top: 2911.31px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: -0.011em;
-
-color: #1E1E1E;
+    width: 66px;
+    height: 23.9px;
+    left: 132px;
+    top: 2911.31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.011em;
+    color: #1E1E1E;
 }
 
 #navbar-brand {
@@ -271,6 +269,8 @@ color: #1E1E1E;
 input[type="checkbox"] {
     display: block;
     margin-left: 200px;
+    width: 25px;
+    height:25px;
 }
 
 #question-container .test-kanan .background-img img {
@@ -288,7 +288,7 @@ input[type="checkbox"] {
     border-radius: 5px; 
     cursor: pointer; 
     float: right; 
-    left: 721px;
+    left: 760px;
     top: 490px;
 }
 

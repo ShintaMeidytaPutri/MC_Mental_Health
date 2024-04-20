@@ -413,7 +413,8 @@ hr {
 
 #form-profile {
     float: right; 
-    margin-top: -280px; 
+    margin-top: -280px;
+    margin-right: 85px;
 }
 
 .container-profile {
